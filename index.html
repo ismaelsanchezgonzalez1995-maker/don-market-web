@@ -19,12 +19,12 @@ section{padding:64px 7%}h2{font-size:clamp(32px,5vw,46px);margin:0 0 10px;color:
 .caption{padding:18px;display:flex;flex-direction:column;gap:5px}.caption strong{font-size:20px}.caption span{color:#66726b}
 #novedades .posters{grid-template-columns:repeat(4,minmax(0,1fr))}
 #novedades .poster img{aspect-ratio:2/3}
-.meat{background:var(--g);color:white;border-radius:24px;margin:0 7%;padding:42px}.meat h2{color:white}.meat p{font-size:18px;line-height:1.6}
+.meat{background:var(--g);color:white;border-radius:24px;margin:0 7%;padding:42px}.meat h2{color:white}.meat p{font-size:18px;line-height:1.6}.meat-offers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:28px 0}.meat-offer{background:white;color:var(--ink);border-radius:18px;overflow:hidden}.meat-offer img{width:100%;display:block}.meat-offer .caption{padding:18px}.meat-offer .price{font-size:28px;font-weight:900;color:var(--r)}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:24px}.box{background:white;border-radius:18px;padding:28px;box-shadow:0 8px 28px #00000010}
 .wa{position:fixed;right:18px;bottom:18px;background:#25D366;color:white;padding:14px 18px;border-radius:40px;text-decoration:none;font-weight:900;box-shadow:0 6px 22px #0005;z-index:10}
 footer{background:var(--g2);color:white;padding:32px 7%;line-height:1.7}
 @media(max-width:900px){#novedades .posters{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:650px){nav{display:none}header img{width:135px;height:56px}.hero{padding:58px 6%;min-height:430px}.hero p{font-size:18px}section{padding:50px 5%}.posters,#novedades .posters,.contact{grid-template-columns:1fr}.meat{margin:0 5%;padding:30px}.poster img,#novedades .poster img{aspect-ratio:auto}}
+@media(max-width:650px){nav{display:none}header img{width:135px;height:56px}.hero{padding:58px 6%;min-height:430px}.hero p{font-size:18px}section{padding:50px 5%}.posters,#novedades .posters,.contact,.meat-offers{grid-template-columns:1fr}.meat{margin:0 5%;padding:30px}.poster img,#novedades .poster img{aspect-ratio:auto}}
 </style></head><body>
 <header><img src="logo-don-market.jpeg" alt="Don Market"><nav><a href="#ofertas">Ofertas</a><a href="#novedades">Novedades</a><a href="#carniceria">Carnicería</a><a href="#contacto">Contacto</a></nav></header>
 <section class="hero"><div><span class="pill">DON MARKET · CUEVAS DE SAN MARCOS</span><h1>Tu supermercado de confianza</h1>
@@ -52,10 +52,10 @@ footer{background:var(--g2);color:white;padding:32px 7%;line-height:1.7}
 <div class="caption"><strong>Cerveza fría</strong><span>Nuevo en Don Market</span></div></article>
 <article class="poster"><img src="novedad-fuet.jpeg" alt="Fuet ElPozo maxi pack" loading="lazy">
 <div class="caption"><strong>Fuet ElPozo maxi pack</strong><span>Nuevo en Don Market</span></div></article></div></section>
-<section id="carniceria"><div class="meat"><h2>🥩 Carnicería Don Market</h2><p>Carnicería propia, elaborados caseros, hamburguesas, lotes y encargos. Escríbenos y te preparamos tu pedido.</p><a class="btn btn-y" target="_blank" href="https://wa.me/34684757148?text=Hola%20Don%20Market%2C%20quiero%20hacer%20un%20encargo%20de%20carnicer%C3%ADa.">Hacer un encargo</a></div></section>
+<section id="carniceria"><div class="meat"><h2>🥩 Carnicería Don Market</h2><p>Descubre nuestras ofertas de carnicería y haz tus encargos directamente por WhatsApp.</p><div class="meat-offers"><article class="meat-offer"><img src="oferta-jamon-bodega-67.jpeg" alt="Jamón Bodega Duroc ElPozo 1954 por 67 euros" loading="lazy"><div class="caption"><strong>Jamón Bodega Duroc ElPozo 1954</strong><span class="price">67 €</span></div></article><article class="meat-offer"><img src="oferta-jamon-gran-reserva-89.png" alt="Jamón Gran Reserva Duroc ElPozo más de 8,5 kg por 89 euros" loading="lazy"><div class="caption"><strong>Jamón Gran Reserva Duroc ElPozo 1954 · +8,5 kg</strong><span class="price">89 €</span></div></article></div><a class="btn btn-y" target="_blank" href="https://wa.me/34684757148?text=Hola%20Don%20Market%2C%20quiero%20hacer%20un%20encargo%20de%20carnicer%C3%ADa.">Hacer un encargo</a></div></section>
 <section id="contacto"><h2>📍 Ven a vernos</h2><div class="contact">
 <div class="box"><h3>Don Market</h3><p>Av. Rodríguez de la Fuente, 12<br>29120 Cuevas de San Marcos (Málaga)</p><p><b>WhatsApp:</b> 684 757 148</p><a class="btn btn-y" target="_blank" href="https://wa.me/34684757148">Abrir WhatsApp</a></div>
-<div class="box"><h3>🕐 Horario</h3><p><b>Lunes a viernes</b><br>9:00–14:00 · 17:00–21:00</p><p><b>Sábados</b><br>9:00–14:00</p><p>Domingos cerrado.</p></div></div></section>
+<div class="box"><h3>🕐 Horario</h3><p>Consulta nuestro horario actualizado por WhatsApp.</p><a class="btn btn-y" target="_blank" href="https://wa.me/34684757148?text=Hola%20Don%20Market%2C%20%C2%BFme%20pod%C3%A9is%20indicar%20el%20horario%20actualizado%3F">Consultar horario</a></div></div></section>
 <footer><b>DON MARKET descuento</b><br>Av. Rodríguez de la Fuente, 12 · 29120 Cuevas de San Marcos (Málaga)<br>WhatsApp: 684 757 148 · © 2026 Don Market</footer>
 <a class="wa" target="_blank" href="https://wa.me/34684757148?text=Hola%20Don%20Market%2C%20quiero%20hacer%20un%20encargo.">💬 WhatsApp</a>
 </body></html>
